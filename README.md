@@ -2,9 +2,9 @@
 
 Teks perbedaan STD dan PRO sudah terisi di halaman dan panel detail. Untuk mengganti foto, buka `index.html`, lalu cari dua tombol dengan kelas `product-card`.
 
-- Pada kartu STD, isi `data-photo=""` dengan path foto, misalnya `data-photo="images/atheena-std.jpg"`.
-- Pada kartu PRO, isi dengan foto lain, misalnya `data-photo="images/atheena-pro.jpg"`.
-- Simpan kedua foto di folder `images` di samping `index.html`. Jika path belum diisi atau file gagal dimuat, panel tetap menampilkan placeholder foto.
+- Foto STD sudah terhubung ke `images/atheena-std.png`.
+- Foto PRO sudah terhubung ke `images/atheena-pro.png`.
+- Jika ingin mengganti foto, ubah nilai `data-photo` pada kartu produk. Jika file gagal dimuat, panel tetap menampilkan placeholder foto.
 - `data-description` dan `data-detail` berisi teks khusus masing-masing paket yang tampil di panel detail. Ringkasan kartu ada di `.card-description`.
 - Fitur bersama dan catatan navigasi ada di bagian `.detail-common` dan `.detail-note` pada `index.html`.
 
